@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.menu {
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.topo {
+    background-color: red;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.blocos {
+    display: flex;
+    gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.bloco {
+    background-color: limegreen;
+    height: 120px;
+    flex: 1;
+}
